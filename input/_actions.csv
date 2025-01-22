@@ -1,0 +1,55 @@
+action,layer,field,field_type,domain,field_length,field_alias
+NEW_FIELD,opsmap_light,update_date,DATE,,,Update date
+NEW_FIELD,opsmap_light,gi2_site_unique_id,TEXT,,50,Site name/pcode
+NEW_FIELD,opsmap_light,site_name,TEXT,,50,Site name
+NEW_FIELD,opsmap_light,site_pcode,TEXT,,50,Site Pcode
+NEW_FIELD,opsmap_light,iso3,TEXT,,50,Country
+NEW_FIELD,opsmap_light,site_typology,TEXT,oml_sitetype,50,Site Type
+NEW_FIELD,opsmap_light,admin_1_code,TEXT,,50,Admin Level 1 code
+NEW_FIELD,opsmap_light,admin_1_name,TEXT,,50,Admin Level 1
+NEW_FIELD,opsmap_light,admin_2_code,TEXT,,50,Admin Level 2 code
+NEW_FIELD,opsmap_light,admin_2_name,TEXT,,50,Admin Level 2
+NEW_FIELD,opsmap_light,other_site_type,TEXT,,50,Other type of site
+NEW_FIELD,opsmap_light,latitude,DOUBLE,,,Only for map display
+NEW_FIELD,opsmap_light,longitude,DOUBLE,,,Only for map display
+NEW_FIELD,opsmap_light,d1_num_people_on_site,LONG,,,Number of people on the site
+NEW_FIELD,opsmap_light,d2_num_males,LONG,,,Number of males
+NEW_FIELD,opsmap_light,d3_num_females,LONG,,,Number of females
+NEW_FIELD,opsmap_light,d4_num_children_under5,LONG,,,Number of children under 5
+NEW_FIELD,opsmap_light,d5_num_households,LONG,,,Number of households
+NEW_FIELD,opsmap_light,d6_identified_vulnerable_groups,TEXT,,50,Identified vulnerable groups
+NEW_FIELD,opsmap_light,d7_support_vulnerable_groups,TEXT,oml_yes_no_unk,50,Assistance systems/support services for vulnerable people
+NEW_FIELD,opsmap_light,h1_functional_health_services,TEXT,oml_yes_no_unk,50,Functional health services availability
+NEW_FIELD,opsmap_light,h2_available_health_services,TEXT,,50,Types of health services on/around the site
+NEW_FIELD,opsmap_light,h3_main_health_problems,TEXT,,50,Main health problems reported
+NEW_FIELD,opsmap_light,w1_water_source,TEXT,,50,Source of drinking water
+NEW_FIELD,opsmap_light,w2_num_latrines,LONG,,,Number of latrines
+NEW_FIELD,opsmap_light,w3_num_showers,LONG,,,Number of showers
+NEW_FIELD,opsmap_light,f1_food_source,TEXT,,50,Main sources of food
+NEW_FIELD,opsmap_light,f2_nutrition_programs_pregnant_br,TEXT,oml_yes_no_unk,50,Nutrition programs for pregnant/breastfeeding women
+NEW_FIELD,opsmap_light,f3_high_malnutrition_under5,TEXT,oml_yes_no_unk,50,Malnutrition prevalence among children under 5
+NEW_FIELD,opsmap_light,s1_shelter_types,TEXT,,50,Types of shelter
+NEW_FIELD,opsmap_light,s2_sufficient_shelters,TEXT,oml_yes_no_unk,50,Sufficient shelters for all residents
+NEW_FIELD,opsmap_light,s3_access_clothing_bedding,TEXT,oml_yes_no_unk,50,Access to basic clothing and bedding
+NEW_FIELD,opsmap_light,c1_designated_contact_point,TEXT,oml_yes_no_unk,50,Designated contact point for residents
+NEW_FIELD,opsmap_light,c1a_information_system,TEXT,,50,Information system available for residents
+NEW_FIELD,opsmap_light,c2_available_services_header,TEXT,oml_yes_no_unk,50,Partners providing services in each sector
+NEW_FIELD,opsmap_light,e1_access_to_education,TEXT,oml_yes_no_unk,50,Access to education for children
+NEW_FIELD,opsmap_light,p1_security_incidents,TEXT,oml_yes_no_unk,50,Security incidents during the period
+NEW_FIELD,opsmap_light,p2_violence_support_access,TEXT,,50,Access to specific support for victims of violence
+NEW_FIELD,opsmap_light,p3_cash_assistance_available,TEXT,oml_yes_no_unk,50,Cash assistance availability
+NEW_FIELD,opsmap_light,n1_sector_need_level_header,TEXT,oml_yes_no_unk,50,Proportion of population in need of assistance per sector
+NEW_FIELD,opsmap_light,svi,DOUBLE,,,Site Vulnerability Index (SVI)
+NEW_FIELD,opsmap_light,svi_class,TEXT,,50,Site Vulnerability Index (SVI)
+NEW_FIELD,opsmap_light,valid_sector_svi,DOUBLE,,,Sector include in the score computation
+NEW_FIELD,opsmap_light,confidence_svi_score,DOUBLE,,,Confidence score on 10
+NEW_FIELD,opsmap_light,sector_demo,DOUBLE,,,Demo
+NEW_FIELD,opsmap_light,sector_vulnerable_groups,DOUBLE,,,Vulnerable
+NEW_FIELD,opsmap_light,sector_health,DOUBLE,,,Health
+NEW_FIELD,opsmap_light,sector_wash,DOUBLE,,,WASH
+NEW_FIELD,opsmap_light,sector_food,DOUBLE,,,Food
+NEW_FIELD,opsmap_light,sector_shelter,DOUBLE,,,Shelter
+NEW_FIELD,opsmap_light,sector_cccm,DOUBLE,,,Coordination & Management
+NEW_FIELD,opsmap_light,sector_education,DOUBLE,,,Education
+NEW_FIELD,opsmap_light,sector_protection,DOUBLE,,,Protection
+NEW_FIELD,opsmap_light,sector_needs,DOUBLE,,,Needs
