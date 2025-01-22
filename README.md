@@ -4,7 +4,7 @@
 
 //TODO
 
-This script assumes that Pyton is installed in the local environment, as well as the module dependencies (`os` and `csv`)
+This script assumes that Python is installed in the local environment, as well as the module dependencies (`os` and `csv`)
 
 ## Step by step
 
