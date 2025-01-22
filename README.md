@@ -14,6 +14,8 @@ This script assumes that Python is installed in the local environment, as well a
 
 Create one .csv file per domain (new domain or domain to be updated). The .csv file name will be used as domain name
 
+\\!/ Domains of type `SHORT` are not supported yet.
+
 #### 1.2. inputs.xlsx
 
 * Sheet actions: Enter the list of actions to be done
