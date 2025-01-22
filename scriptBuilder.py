@@ -1,12 +1,10 @@
 import os
 import csv
 
-#WORKING_DIR = r'C:/miguel/trabajo/projects/unhcr/GDS/2022/site mapping/Mauritania/script'
-WORKING_DIR = r'D:\dev\repos\python\arcgis-datamodel-update'
-#WORKING_DIR = r'C:/NextCloud/CartONG Team/10_Projects/UNHCR-GDS/Site Mapping/Country support/Data model update script'
+WORKING_DIR = os.getcwd()
 
 os.chdir(WORKING_DIR)
-#print(os.getcwd())
+print(WORKING_DIR)
 
 # Init config variables
 SDE_DB_CONNECTION_PATH = ""
@@ -97,7 +95,7 @@ with open('input/_actions.csv', mode='r', encoding='utf-8') as csv_file:
     elif row["action"] == "NEW_FIELD":
 
       # Catch field length for numeric fields
-      if row["field_type"] == "LONG" or row["field_type"] == "DOUBLE" or row["field_type"] == "DATE":
+      if row["field_type"] == "SHORT" or row["field_type"] == "LONG" or row["field_type"] == "DOUBLE" or row["field_type"] == "DATE":
         row["field_length"] = None
 
       # Build arcpy command AddField

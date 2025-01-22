@@ -37,10 +37,8 @@ Create one .csv file per domain (new domain or domain to be updated). The .csv f
 
 ### 4. Run scriptBuilder.py in the local environment
 
-1. Open "scriptBuilder.py"
-2. Update the WORKING_DIR with the path to the working folder
-3. Run the script
-4. Open "output/output.py" and copy the content (this is the result of scriptBuilder.py)
+1. Run "scriptBuilder.py"
+2. Open "output/output.py" and copy the content (this is the result of scriptBuilder.py)
 
 ### 5. Apply the changes on the server
 
