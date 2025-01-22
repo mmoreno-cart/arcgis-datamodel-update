@@ -51,4 +51,4 @@ Create one .csv file per domain (new domain or domain to be updated). The .csv f
 
 Data model is updated !
 
-For any questions you can contact Miguel from CartONG ! :)
+For any questions you can contact the author ! :)
