@@ -1,2 +1,2 @@
 SDE_DB_CONNECTION_PATH,DB_CONNECTION,DOMAIN_PATH
-C:/sdeDBConnections,unhcr_admin@opsmap.sde,C:\Users\t-morenom.UNHCR\Desktop\imports\opsmap_light\domains
+path_to_database_connection_folder,name_of_database_connection,path_to_domains_in_target_environment

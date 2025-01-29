@@ -2,7 +2,11 @@
 
 ## Description and context
 
-//TODO
+The goal of this script is to ease the update of the fields in an ArcGIS feature class or table. It is designed to be run in an environment where ArcGIS license (and therefore `arcpy` available) is not necessarily installed.
+
+The actions to be done are defined in the input folder and the script will build an `arcpy` script that the user can run in an ArcGIS environment.
+
+## Prerequisites
 
 This script assumes that Python is installed in the local environment, as well as the module dependencies (`os` and `csv`)
 
@@ -31,11 +35,11 @@ Create one .csv file per domain (new domain or domain to be updated). The .csv f
 3. copy/paste the fc sheet on "_feature_classes.csv"
 4. replace tabulation by ","
 
-### 3. Move the domain files to the server
+### 3. Move the domain files to the ArcGIS environment (e.g. ArcGIS Server)
 
-1. Copy/paste the "domains" folder containing the .csv files of new domains in the server
+1. Copy/paste the "domains" folder containing the .csv files of new domains to the target environment
 2. Copy the path to the folder where you stored the files
-3. Update the file "_config.csv" with the correct FolderPath to the server's domain folder you just copied (`DOMAIN_PATH`) and update .sde name (`DB_CONNECTION`)
+3. Update the file "_config.csv" with the correct FolderPath to the environment's domain folder you just copied (`DOMAIN_PATH`) and update .sde name (`DB_CONNECTION`)
 
 ### 4. Run scriptBuilder.py in the local environment
 
@@ -44,7 +48,9 @@ Create one .csv file per domain (new domain or domain to be updated). The .csv f
 
 ### 5. Apply the changes on the server
 
-1. Open ArcGIS Pro on the server. It can be the country aprx
+Run the output.py file in the ArcGIS environment including an ArcGIS notebook as follows.
+
+1. Open ArcGIS Pro on the target environment.
 2. Open a new notebook
 3. Paste the output.py content and run the notebook
 4. Check that the domains are properly updated
